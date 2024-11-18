@@ -1,0 +1,38 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+    /* background-color: crimson */
+    overflow: hidden;
+}
+
+.main {
+    background-color: black;
+    position: relative;
+      color: white;
+    
+}
+.m1{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-start; */
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 50% ;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    justify-content: center;
+    mix-blend-mode: difference;
+}
